@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #77002e;
+    background-color: #384A49;
     padding: 0 10%;
   }
   
@@ -29,11 +29,16 @@
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fcb8d2;
-    padding-left: 30px
+    color: white;
+    padding-left: 50px
+  }
+  span{
+    color:#00B2CA
   }
   
-  .header a:hover,
+  .header a:hover{
+    color:#00B2CA
+  }
   .header a:active,
   .header a.active {
     color: white;
