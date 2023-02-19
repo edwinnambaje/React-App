@@ -1,0 +1,35 @@
+.about .abouts {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+.about .col {
+	width: 250px;
+	height: 0px;
+}
+.about .cols {
+	width: 100%;
+}
+.about .cols h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+.about .cols p {
+	margin-bottom: 20px;
+}
+.about .cols .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+.about .col .img {
+	height: 30%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
