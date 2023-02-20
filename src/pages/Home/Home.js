@@ -1,16 +1,15 @@
-import classes from './Meet.module.css';
+import './Home.css';
 
-function Home(){
+function Home(props){
     return (
-    <section id={classes.hero}>
-    <div className={classes.hero}>
-    <div className={classes.overlay}>
-        <h1>Hello, <span></span></h1>
-        <h1>My Name is <span></span></h1>
-        <h1>Edwin <span></span></h1>
+  <section className='hero'>
+    <div className='overlay'>
+       <h1 style={{
+        zIndex: 10,
+        color: "white"
+       }}>Edwin</h1>
     </div>
-    </div>
-    </section>
+  </section>
     );
 }
 export default Home;
