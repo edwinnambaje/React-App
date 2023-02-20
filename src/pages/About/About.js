@@ -1,5 +1,5 @@
 import classes from './About.module.css'
-import profile from '../images/profile.jpg'
+import profile from '../../images/profile.jpg'
 function About(){
     return <section className={classes.about}>
         <div className={classes.abouts}>

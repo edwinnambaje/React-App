@@ -1,10 +1,10 @@
 import { Route, Routes} from "react-router";
 import Layout from "./components/layouts/Layout";
-import Home from "./pages/Home";
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
+import Contact from "./pages/Contact/Contact";
 import Blogs from "./pages/Blogs";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
 function App() {
   return (
     <Layout>
